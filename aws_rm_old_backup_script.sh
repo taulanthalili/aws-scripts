@@ -1,7 +1,13 @@
 #!/bin/bash
 
 ##AWS Cred
-. private.sh
+#. private.sh
+### You can separate below to another private file like private.sh script
+#==========
+export AWS_ACCESS_KEY_ID="XXXX"
+export AWS_SECRET_ACCESS_KEY="XXXX"
+export AWS_DEFAULT_REGION=eu-central-1
+#==========
 
 #Insert the Inst ID separated with a space
 MY_ARRAY=(i-XXXX i-XXXX2)
