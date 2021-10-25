@@ -4,7 +4,8 @@
 shellcheck test.sh
 
 ##apt-get install shellcheck ##If not found.
-2. Format 
+
+2. Format the code
 shfmt test.sh
 
 ###You can install it is not found
