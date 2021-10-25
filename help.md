@@ -7,6 +7,6 @@ shellcheck test.sh
 2. Format 
 shfmt test.sh
 
-#You can install it is not found
-# curl -sS https://webinstall.dev/shfmt | bash
+###You can install it is not found
+### curl -sS https://webinstall.dev/shfmt | bash
 #export PATH="/root/.local/bin:$PATH"
